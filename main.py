@@ -5,6 +5,8 @@ from rl_tf2.agents.ddpg.critic_network import Critic
 from rl_tf2.agents.ddpg.ddpg_agent import DDPG
 import yaml
 
+# 我随便写的东西
+
 with open('config.yml', 'r') as f:
     config = yaml.load(f, Loader=yaml.FullLoader)
 
